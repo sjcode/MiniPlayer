@@ -1,0 +1,919 @@
+TMiniPlayer
+v7
+r0
+t369282700.025752
+cCheck dependencies
+cProcessInfoPlistFile /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Info.plist MiniPlayer-Info.plist
+cCopyStringsFile /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/Arthur/CocoaProject/MiniPlayer/English.lproj/MainMenu.xib
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_titlebar.png resource/bg_titlebar.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_thumb_right.png resource/bg_player_progress_thumb_right.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_thumb_middle.png resource/bg_player_progress_thumb_middle.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_thumb_left.png resource/bg_player_progress_thumb_left.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_right.png resource/bg_player_progress_right.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_middle.png resource/bg_player_progress_middle.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_left.png resource/bg_player_progress_left.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_thumb.png resource/bg_player_thumb.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress.png resource/bg_player_progress.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_toolbar.png resource/bg_toolbar.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/defaultvedio.png resource/defaultvedio.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator.png resource/ProgressBar/navBar-separator.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-rightSquare-pushed.png resource/ProgressBar/navBar-separator-rightSquare-pushed.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-rightSquare-pushed-inactive.png resource/ProgressBar/navBar-separator-rightSquare-pushed-inactive.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-right-pushed.png resource/ProgressBar/navBar-separator-right-pushed.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-right-pushed-inactive.png resource/ProgressBar/navBar-separator-right-pushed-inactive.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-left-pushed.png resource/ProgressBar/navBar-separator-left-pushed.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-left-pushed-inactive.png resource/ProgressBar/navBar-separator-left-pushed-inactive.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-center-pushed.png resource/ProgressBar/navBar-separator-center-pushed.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-center-pushed-inactive.png resource/ProgressBar/navBar-separator-center-pushed-inactive.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/tinyArrow.png resource/ProgressBar/tinyArrow.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/tinyArrow-pushed.png resource/ProgressBar/tinyArrow-pushed.png
+cCpResource build/Debug/MiniPlayer.app/Contents/Resources/tinyArrow-inactive.png resource/ProgressBar/tinyArrow-inactive.png
+cProcessPCH /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch.gch MiniPlayer_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/main.o /Users/Arthur/CocoaProject/MiniPlayer/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MiniPlayerAppDelegate.o /Users/Arthur/CocoaProject/MiniPlayer/MiniPlayerAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNProgressBar.o /Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNProgressBar.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MPHeadView.o /Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MPHeadView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNSimpleComboBox.o /Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNSimpleComboBox.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNFootView.o /Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MNFootView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNImageTextCell.o /Users/Arthur/CocoaProject/MiniPlayer/UI/MusicTableView/MNImageTextCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationBar.o /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationBar.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/Utilites.o /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/Utilites.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationLayer.o /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationLayer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/MacOS/MiniPlayer normal x86_64
+cTouch /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app
+
+N/Developer3.2.3/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer3.2.3/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSAttributedString.h
+c000000004BE2C6D10000000000007871
+t1273153233
+s30833
+
+N/Developer3.2.3/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer3.2.3/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004BE91E5100000000000000BF
+t1273568849
+s191
+
+N/Developer3.2.3/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004BF4701000000000000A2AAC
+t1274310672
+s666284
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004B5FA877000000000000A5E0
+t1264560247
+s42464
+
+N/Users/Arthur/CocoaProject/MiniPlayer/English.lproj/InfoPlist.strings
+c0000000050366758000000000000002D
+t1345742680
+s45
+
+N/Users/Arthur/CocoaProject/MiniPlayer/English.lproj/MainMenu.xib
+c00000000504F00650000000000035C36
+t1347354725
+s220214
+
+N/Users/Arthur/CocoaProject/MiniPlayer/MiniPlayerAppDelegate.h
+c000000005036EE74000000000000019A
+t1345777268
+s410
+i<Cocoa/Cocoa.h>
+i"MNNavigationBar.h"
+
+N/Users/Arthur/CocoaProject/MiniPlayer/MiniPlayerAppDelegate.m
+c00000000504F00F500000000000006B3
+t1347354869
+s1715
+i"MiniPlayerAppDelegate.h"
+i<QuartzCore/QuartzCore.h>
+i"MNImageTextCell.h"
+
+N/Users/Arthur/CocoaProject/MiniPlayer/MiniPlayer_Prefix.pch
+c00000000503667580000000000000097
+t1345742680
+s151
+i<Cocoa/Cocoa.h>
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNProgressBar.h
+c0000000050366CB000000000000002AE
+t1345744048
+s686
+i<Cocoa/Cocoa.h>
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNProgressBar.m
+c0000000050366EB80000000000001766
+t1345744568
+s5990
+i"MNProgressBar.h"
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNSimpleComboBox.h
+c0000000050366FF800000000000000E2
+t1345744888
+s226
+i<Cocoa/Cocoa.h>
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNSimpleComboBox.m
+c0000000050366FF60000000000000711
+t1345744886
+s1809
+i"MNSimpleComboBox.h"
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MNFootView.h
+c00000000503672E200000000000000E5
+t1345745634
+s229
+i<Cocoa/Cocoa.h>
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MNFootView.m
+c00000000503672E20000000000000300
+t1345745634
+s768
+i"MNFootView.h"
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MPHeadView.h
+c000000005036696A00000000000000E6
+t1345743210
+s230
+i<Cocoa/Cocoa.h>
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MPHeadView.m
+c00000000503669A0000000000000024D
+t1345743264
+s589
+i"MPHeadView.h"
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/MusicTableView/MNImageTextCell.h
+c000000005036E7EC000000000000015C
+t1345775596
+s348
+i<Cocoa/Cocoa.h>
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/MusicTableView/MNImageTextCell.m
+c000000005036EA5C0000000000000B62
+t1345776220
+s2914
+i"MNImageTextCell.h"
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationBar.h
+c0000000050485BD7000000000000024D
+t1346919383
+s589
+i<Cocoa/Cocoa.h>
+i"MNNavigationLayer.h"
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationBar.m
+c00000000504F02BA00000000000044F9
+t1347355322
+s17657
+i"MNNavigationBar.h"
+i"Utilites.h"
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationCell.h
+c00000000503B234600000000000003F1
+t1346052934
+s1009
+i<Cocoa/Cocoa.h>
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationCell.m
+c00000000503B26B70000000000002269
+t1346053815
+s8809
+i"MNNavigationCell.h"
+i"MNNavigationBar.h"
+i"Utilites.h"
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationLayer.h
+c00000000504936E900000000000001E2
+t1346975465
+s482
+i<Cocoa/Cocoa.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationLayer.m
+c000000005051A9FC000000000000115E
+t1347529212
+s4446
+i"MNNavigationLayer.h"
+i"Utilites.h"
+i<AppKit/NSAttributedString.h>
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/Utilites.h
+c00000000504ED205000000000000020A
+t1347342853
+s522
+i<Cocoa/Cocoa.h>
+
+N/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/Utilites.m
+c00000000504EFEAA0000000000000A51
+t1347354282
+s2641
+i"Utilites.h"
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app
+t1347529212
+s102
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Info.plist
+t1345897366
+s895
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/MacOS/MiniPlayer
+t1347529212
+s85280
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/PkgInfo
+t1345897366
+s8
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1345897367
+s92
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/English.lproj/MainMenu.nib
+t1347354728
+s43158
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress.png
+t1345897367
+s410
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_left.png
+t1345897367
+s1021
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_middle.png
+t1345897367
+s934
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_right.png
+t1345897367
+s1015
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_thumb_left.png
+t1345897367
+s963
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_thumb_middle.png
+t1345897367
+s933
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_thumb_right.png
+t1345897367
+s964
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/bg_player_thumb.png
+t1345897367
+s997
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/bg_titlebar.png
+t1345897367
+s2906
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/bg_toolbar.png
+t1345897367
+s2612
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/defaultvedio.png
+t1345897367
+s200767
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-center-pushed-inactive.png
+t1345947714
+s2823
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-center-pushed.png
+t1345947714
+s2824
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-left-pushed-inactive.png
+t1345947714
+s3118
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-left-pushed.png
+t1345947714
+s3115
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-right-pushed-inactive.png
+t1345947714
+s3148
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-right-pushed.png
+t1345947714
+s3121
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-rightSquare-pushed-inactive.png
+t1345947714
+s2849
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-rightSquare-pushed.png
+t1345947714
+s2849
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator.png
+t1345947714
+s2991
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/tinyArrow-inactive.png
+t1347354727
+s2917
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/tinyArrow-pushed.png
+t1347354727
+s2936
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/tinyArrow.png
+t1347354727
+s2911
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNFootView.o
+t1345897371
+s17180
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNImageTextCell.o
+t1345897371
+s28304
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationBar.o
+t1347529101
+s68436
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationCell.o
+t1346054736
+s42516
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationLayer.o
+t1347529212
+s29208
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNProgressBar.o
+t1345897371
+s43208
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNSimpleComboBox.o
+t1345897371
+s24316
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MPHeadView.o
+t1345897371
+s16384
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MiniPlayer.LinkFileList
+c00000000504F006700000000000004C3
+t1347354727
+s1219
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MiniPlayerAppDelegate.o
+t1347354870
+s38104
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/Utilites.o
+t1347354733
+s14256
+
+N/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/main.o
+t1345897370
+s5000
+
+N/Users/Arthur/CocoaProject/MiniPlayer/main.m
+c000000005036675800000000000000FA
+t1345742680
+s250
+i<Cocoa/Cocoa.h>
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-center-pushed-inactive.png
+c000000005013513A0000000000000B07
+t1343443258
+s2823
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-center-pushed.png
+c000000005013513A0000000000000B08
+t1343443258
+s2824
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-left-pushed-inactive.png
+c000000005013513A0000000000000C2E
+t1343443258
+s3118
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-left-pushed.png
+c000000005013513A0000000000000C2B
+t1343443258
+s3115
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-right-pushed-inactive.png
+c000000005013513A0000000000000C4C
+t1343443258
+s3148
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-right-pushed.png
+c000000005013513A0000000000000C31
+t1343443258
+s3121
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-rightSquare-pushed-inactive.png
+c000000005013513A0000000000000B21
+t1343443258
+s2849
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-rightSquare-pushed.png
+c000000005013513A0000000000000B21
+t1343443258
+s2849
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator.png
+c000000005013513A0000000000000BAF
+t1343443258
+s2991
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/tinyArrow-inactive.png
+c000000005013513A0000000000000B65
+t1343443258
+s2917
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/tinyArrow-pushed.png
+c000000005013513A0000000000000B78
+t1343443258
+s2936
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/tinyArrow.png
+c000000005013513A0000000000000B5F
+t1343443258
+s2911
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress.png
+c000000004F415968000000000000019A
+t1329682792
+s410
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_left.png
+c000000004FFB1C2A00000000000003FD
+t1341856810
+s1021
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_middle.png
+c000000004FFB1C2A00000000000003A6
+t1341856810
+s934
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_right.png
+c000000004FFB1C2A00000000000003F7
+t1341856810
+s1015
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_thumb_left.png
+c000000004FFB1C2A00000000000003C3
+t1341856810
+s963
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_thumb_middle.png
+c000000004FFB1C2A00000000000003A5
+t1341856810
+s933
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_thumb_right.png
+c000000004FFB1C2A00000000000003C4
+t1341856810
+s964
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_thumb.png
+c000000004F41596800000000000003E5
+t1329682792
+s997
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_titlebar.png
+c000000004F4159680000000000000B5A
+t1329682792
+s2906
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_toolbar.png
+c000000004F4159680000000000000A34
+t1329682792
+s2612
+
+N/Users/Arthur/CocoaProject/MiniPlayer/resource/defaultvedio.png
+c000000004FA73B4A000000000003103F
+t1336359754
+s200767
+
+N/var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch.gch
+t1345807707
+s54269712
+
+NMiniPlayer-Info.plist
+c000000005036675800000000000003EA
+t1345742680
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies369282700#369282700#0(0"0(0#1#0"8664292928#0"0#
+
+CCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNFootView.o /Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MNFootView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s367590171.225406
+e367590171.404505
+r1
+xCompileC
+xbuild/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNFootView.o
+x/Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MNFootView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MNFootView.m367590171#367590171#0(0"0(0#0#60"/Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MNFootView.m8596512448#1531"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv LANG en_US.US-ASCII    /Developer3.2.3/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer3.2.3/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-generated-files.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-own-target-headers.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-all-target-headers.hmap -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-project-headers.hmap -F/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -I/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/include -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources/x86_64 -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources -include /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch -c /Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MNFootView.m -o /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNFootView.o0#
+
+CCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNImageTextCell.o /Users/Arthur/CocoaProject/MiniPlayer/UI/MusicTableView/MNImageTextCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s367590171.307628
+e367590171.519303
+r1
+xCompileC
+xbuild/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNImageTextCell.o
+x/Users/Arthur/CocoaProject/MiniPlayer/UI/MusicTableView/MNImageTextCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Arthur/CocoaProject/MiniPlayer/UI/MusicTableView/MNImageTextCell.m367590171#367590171#0(0"0(0#0#73"/Users/Arthur/CocoaProject/MiniPlayer/UI/MusicTableView/MNImageTextCell.m8596176320#1549"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv LANG en_US.US-ASCII    /Developer3.2.3/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer3.2.3/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-generated-files.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-own-target-headers.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-all-target-headers.hmap -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-project-headers.hmap -F/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -I/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/include -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources/x86_64 -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources -include /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch -c /Users/Arthur/CocoaProject/MiniPlayer/UI/MusicTableView/MNImageTextCell.m -o /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNImageTextCell.o0#
+
+CCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationBar.o /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationBar.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s369221898.077768
+e369221901.082932
+r1
+xCompileC
+xbuild/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationBar.o
+x/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationBar.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationBar.m369221898#369221901#0(0"0(0#0#79"/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationBar.m8630272896#1555"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv LANG en_US.US-ASCII    /Developer3.2.3/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer3.2.3/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-generated-files.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-own-target-headers.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-all-target-headers.hmap -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-project-headers.hmap -F/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -I/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/include -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources/x86_64 -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources -include /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch -c /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationBar.m -o /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationBar.o0#
+
+CCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationCell.o /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationCell.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s367747536.284207
+e367747536.527399
+r1
+xCompileC
+xbuild/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationCell.o
+x/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationCell.m367747536#367747536#0(0"0(0#0#80"/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationCell.m8665902464#1557"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv LANG en_US.US-ASCII    /Developer3.2.3/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer3.2.3/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-generated-files.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-own-target-headers.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-all-target-headers.hmap -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-project-headers.hmap -F/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -I/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/include -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources/x86_64 -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources -include /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch -c /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationCell.m -o /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationCell.o0#
+
+CCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationLayer.o /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationLayer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s369222012.382123
+e369222012.756407
+r1
+xCompileC
+xbuild/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationLayer.o
+x/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationLayer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationLayer.m369222012#369222012#0(0"0(0#0#81"/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationLayer.m8655896864#1559"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv LANG en_US.US-ASCII    /Developer3.2.3/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer3.2.3/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-generated-files.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-own-target-headers.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-all-target-headers.hmap -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-project-headers.hmap -F/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -I/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/include -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources/x86_64 -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources -include /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch -c /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/MNNavigationLayer.m -o /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNNavigationLayer.o0#
+
+CCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNProgressBar.o /Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNProgressBar.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s367590170.689684
+e367590171.078224
+r1
+xCompileC
+xbuild/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNProgressBar.o
+x/Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNProgressBar.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNProgressBar.m367590170#367590171#0(0"0(0#0#70"/Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNProgressBar.m8596468896#1544"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv LANG en_US.US-ASCII    /Developer3.2.3/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer3.2.3/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-generated-files.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-own-target-headers.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-all-target-headers.hmap -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-project-headers.hmap -F/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -I/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/include -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources/x86_64 -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources -include /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch -c /Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNProgressBar.m -o /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNProgressBar.o0#
+
+CCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNSimpleComboBox.o /Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNSimpleComboBox.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s367590171.078322
+e367590171.307526
+r1
+xCompileC
+xbuild/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNSimpleComboBox.o
+x/Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNSimpleComboBox.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNSimpleComboBox.m367590171#367590171#0(0"0(0#0#73"/Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNSimpleComboBox.m8598279264#1550"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv LANG en_US.US-ASCII    /Developer3.2.3/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer3.2.3/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-generated-files.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-own-target-headers.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-all-target-headers.hmap -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-project-headers.hmap -F/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -I/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/include -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources/x86_64 -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources -include /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch -c /Users/Arthur/CocoaProject/MiniPlayer/UI/CustomControl/MNSimpleComboBox.m -o /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MNSimpleComboBox.o0#
+
+CCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MPHeadView.o /Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MPHeadView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s367590171.032681
+e367590171.225306
+r1
+xCompileC
+xbuild/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MPHeadView.o
+x/Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MPHeadView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MPHeadView.m367590171#367590171#0(0"0(0#0#60"/Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MPHeadView.m8606383584#1531"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv LANG en_US.US-ASCII    /Developer3.2.3/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer3.2.3/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-generated-files.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-own-target-headers.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-all-target-headers.hmap -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-project-headers.hmap -F/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -I/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/include -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources/x86_64 -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources -include /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch -c /Users/Arthur/CocoaProject/MiniPlayer/UI/Layout/MPHeadView.m -o /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MPHeadView.o0#
+
+CCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MiniPlayerAppDelegate.o /Users/Arthur/CocoaProject/MiniPlayer/MiniPlayerAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s369047669.708603
+e369047670.078277
+r1
+xCompileC
+xbuild/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MiniPlayerAppDelegate.o
+x/Users/Arthur/CocoaProject/MiniPlayer/MiniPlayerAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Arthur/CocoaProject/MiniPlayer/MiniPlayerAppDelegate.m369047669#369047670#0(0"0(0#0#61"/Users/Arthur/CocoaProject/MiniPlayer/MiniPlayerAppDelegate.m8644280192#1543"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv LANG en_US.US-ASCII    /Developer3.2.3/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer3.2.3/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-generated-files.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-own-target-headers.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-all-target-headers.hmap -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-project-headers.hmap -F/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -I/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/include -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources/x86_64 -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources -include /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch -c /Users/Arthur/CocoaProject/MiniPlayer/MiniPlayerAppDelegate.m -o /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MiniPlayerAppDelegate.o0#
+
+CCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/Utilites.o /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/Utilites.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s369047533.191770
+e369047533.453638
+r1
+xCompileC
+xbuild/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/Utilites.o
+x/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/Utilites.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/Utilites.m369047533#369047533#0(0"0(0#0#72"/Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/Utilites.m8666225472#1541"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv LANG en_US.US-ASCII    /Developer3.2.3/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer3.2.3/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-generated-files.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-own-target-headers.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-all-target-headers.hmap -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-project-headers.hmap -F/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -I/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/include -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources/x86_64 -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources -include /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch -c /Users/Arthur/CocoaProject/MiniPlayer/UI/NavigationController/Utilites.m -o /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/Utilites.o0#
+
+CCompileC build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/main.o /Users/Arthur/CocoaProject/MiniPlayer/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s367590167.279330
+e367590170.689520
+r1
+xCompileC
+xbuild/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/main.o
+x/Users/Arthur/CocoaProject/MiniPlayer/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/Arthur/CocoaProject/MiniPlayer/main.m367590167#367590170#0(0"0(0#0#44"/Users/Arthur/CocoaProject/MiniPlayer/main.m8597114816#1509"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv LANG en_US.US-ASCII    /Developer3.2.3/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer3.2.3/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-generated-files.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-own-target-headers.hmap -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-all-target-headers.hmap -iquote /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/MiniPlayer-project-headers.hmap -F/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -I/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/include -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources/x86_64 -I/Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/DerivedSources -include /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch -c /Users/Arthur/CocoaProject/MiniPlayer/main.m -o /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/Arthur/CocoaProject/MiniPlayer/English.lproj/MainMenu.xib
+s369047527.862824
+e369047528.391863
+r1
+xCompileXIB
+x/Users/Arthur/CocoaProject/MiniPlayer/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/Arthur/CocoaProject/MiniPlayer/English.lproj/MainMenu.xib:552: note: This view is clipping its content.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib369047527#369047528#0(151"/* com.apple.ibtool.document.notices *//Users/Arthur/CocoaProject/MiniPlayer/English.lproj/MainMenu.xib:552: note: This view is clipping its content.1(13@34"This view is clipping its content.369047528#18446744073709551615#0#0(6@64"/Users/Arthur/CocoaProject/MiniPlayer/English.lproj/MainMenu.xib369047525#552#0#552#0#0"0(0#0#64"/Users/Arthur/CocoaProject/MiniPlayer/English.lproj/MainMenu.xib8618584448#374"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Arthur/CocoaProject/MiniPlayer/English.lproj/MainMenu.xib --sdk /Developer3.2.3/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s367590166.742424
+e367590167.069033
+r1
+xCopyStringsFile
+x/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings367590166#367590167#0(0"0(0#0#69"/Users/Arthur/CocoaProject/MiniPlayer/English.lproj/InfoPlist.strings8606797952#371"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv ICONV /usr/bin/iconv    /Developer3.2.3/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress.png resource/bg_player_progress.png
+s367590167.079492
+e367590167.105324
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress.png
+xresource/bg_player_progress.png
+lSLF07#2@36"Copy resource/bg_player_progress.png367590167#367590167#0(0"0(0#0#69"/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress.png8606655616#352"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_left.png resource/bg_player_progress_left.png
+s367590167.076236
+e367590167.090115
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_left.png
+xresource/bg_player_progress_left.png
+lSLF07#2@41"Copy resource/bg_player_progress_left.png367590167#367590167#0(0"0(0#0#74"/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_left.png8602324096#357"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_left.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_middle.png resource/bg_player_progress_middle.png
+s367590167.074504
+e367590167.092159
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_middle.png
+xresource/bg_player_progress_middle.png
+lSLF07#2@43"Copy resource/bg_player_progress_middle.png367590167#367590167#0(0"0(0#0#76"/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_middle.png8602820928#359"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_middle.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_right.png resource/bg_player_progress_right.png
+s367590167.072866
+e367590167.086489
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_right.png
+xresource/bg_player_progress_right.png
+lSLF07#2@42"Copy resource/bg_player_progress_right.png367590167#367590167#0(0"0(0#0#75"/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_right.png8602867712#358"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_right.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_thumb_left.png resource/bg_player_progress_thumb_left.png
+s367590167.071196
+e367590167.085130
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_thumb_left.png
+xresource/bg_player_progress_thumb_left.png
+lSLF07#2@47"Copy resource/bg_player_progress_thumb_left.png367590167#367590167#0(0"0(0#0#80"/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_thumb_left.png8602925312#363"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_thumb_left.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_thumb_middle.png resource/bg_player_progress_thumb_middle.png
+s367590167.070606
+e367590167.081429
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_thumb_middle.png
+xresource/bg_player_progress_thumb_middle.png
+lSLF07#2@49"Copy resource/bg_player_progress_thumb_middle.png367590167#367590167#0(0"0(0#0#82"/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_thumb_middle.png8602996064#365"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_thumb_middle.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_thumb_right.png resource/bg_player_progress_thumb_right.png
+s367590167.069964
+e367590167.089963
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/bg_player_progress_thumb_right.png
+xresource/bg_player_progress_thumb_right.png
+lSLF07#2@48"Copy resource/bg_player_progress_thumb_right.png367590167#367590167#0(0"0(0#0#81"/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_thumb_right.png8603093664#364"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_progress_thumb_right.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_player_thumb.png resource/bg_player_thumb.png
+s367590167.077866
+e367590167.104583
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/bg_player_thumb.png
+xresource/bg_player_thumb.png
+lSLF07#2@33"Copy resource/bg_player_thumb.png367590167#367590167#0(0"0(0#0#66"/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_thumb.png8599227392#349"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/bg_player_thumb.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_titlebar.png resource/bg_titlebar.png
+s367590167.069120
+e367590167.081307
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/bg_titlebar.png
+xresource/bg_titlebar.png
+lSLF07#2@29"Copy resource/bg_titlebar.png367590167#367590167#0(0"0(0#0#62"/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_titlebar.png8603141024#345"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/bg_titlebar.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/bg_toolbar.png resource/bg_toolbar.png
+s367590167.081497
+e367590167.097185
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/bg_toolbar.png
+xresource/bg_toolbar.png
+lSLF07#2@28"Copy resource/bg_toolbar.png367590167#367590167#0(0"0(0#0#61"/Users/Arthur/CocoaProject/MiniPlayer/resource/bg_toolbar.png8606447840#344"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/bg_toolbar.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/defaultvedio.png resource/defaultvedio.png
+s367590167.083205
+e367590167.104453
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/defaultvedio.png
+xresource/defaultvedio.png
+lSLF07#2@30"Copy resource/defaultvedio.png367590167#367590167#0(0"0(0#0#63"/Users/Arthur/CocoaProject/MiniPlayer/resource/defaultvedio.png8598044768#346"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/defaultvedio.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-center-pushed-inactive.png resource/ProgressBar/navBar-separator-center-pushed-inactive.png
+s367640514.743631
+e367640514.804846
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-center-pushed-inactive.png
+xresource/ProgressBar/navBar-separator-center-pushed-inactive.png
+lSLF07#2@69"Copy resource/ProgressBar/navBar-separator-center-pushed-inactive.png367640514#367640514#0(0"0(0#0#102"/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-center-pushed-inactive.png8620336896#385"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-center-pushed-inactive.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-center-pushed.png resource/ProgressBar/navBar-separator-center-pushed.png
+s367640514.741799
+e367640514.792702
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-center-pushed.png
+xresource/ProgressBar/navBar-separator-center-pushed.png
+lSLF07#2@60"Copy resource/ProgressBar/navBar-separator-center-pushed.png367640514#367640514#0(0"0(0#0#93"/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-center-pushed.png8621746240#376"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-center-pushed.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-left-pushed-inactive.png resource/ProgressBar/navBar-separator-left-pushed-inactive.png
+s367640514.739962
+e367640514.792591
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-left-pushed-inactive.png
+xresource/ProgressBar/navBar-separator-left-pushed-inactive.png
+lSLF07#2@67"Copy resource/ProgressBar/navBar-separator-left-pushed-inactive.png367640514#367640514#0(0"0(0#0#100"/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-left-pushed-inactive.png8621829280#383"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-left-pushed-inactive.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-left-pushed.png resource/ProgressBar/navBar-separator-left-pushed.png
+s367640514.738145
+e367640514.792379
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-left-pushed.png
+xresource/ProgressBar/navBar-separator-left-pushed.png
+lSLF07#2@58"Copy resource/ProgressBar/navBar-separator-left-pushed.png367640514#367640514#0(0"0(0#0#91"/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-left-pushed.png8621982016#374"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-left-pushed.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-right-pushed-inactive.png resource/ProgressBar/navBar-separator-right-pushed-inactive.png
+s367640514.736230
+e367640514.776491
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-right-pushed-inactive.png
+xresource/ProgressBar/navBar-separator-right-pushed-inactive.png
+lSLF07#2@68"Copy resource/ProgressBar/navBar-separator-right-pushed-inactive.png367640514#367640514#0(0"0(0#0#101"/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-right-pushed-inactive.png8622071392#384"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-right-pushed-inactive.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-right-pushed.png resource/ProgressBar/navBar-separator-right-pushed.png
+s367640514.734271
+e367640514.770871
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-right-pushed.png
+xresource/ProgressBar/navBar-separator-right-pushed.png
+lSLF07#2@59"Copy resource/ProgressBar/navBar-separator-right-pushed.png367640514#367640514#0(0"0(0#0#92"/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-right-pushed.png8622057984#375"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-right-pushed.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-rightSquare-pushed-inactive.png resource/ProgressBar/navBar-separator-rightSquare-pushed-inactive.png
+s367640514.732568
+e367640514.795183
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-rightSquare-pushed-inactive.png
+xresource/ProgressBar/navBar-separator-rightSquare-pushed-inactive.png
+lSLF07#2@74"Copy resource/ProgressBar/navBar-separator-rightSquare-pushed-inactive.png367640514#367640514#0(0"0(0#0#107"/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-rightSquare-pushed-inactive.png8624319680#390"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-rightSquare-pushed-inactive.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-rightSquare-pushed.png resource/ProgressBar/navBar-separator-rightSquare-pushed.png
+s367640514.730765
+e367640514.760762
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/navBar-separator-rightSquare-pushed.png
+xresource/ProgressBar/navBar-separator-rightSquare-pushed.png
+lSLF07#2@65"Copy resource/ProgressBar/navBar-separator-rightSquare-pushed.png367640514#367640514#0(0"0(0#0#98"/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-rightSquare-pushed.png8624346720#381"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator-rightSquare-pushed.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/navBar-separator.png resource/ProgressBar/navBar-separator.png
+s367640514.729708
+e367640514.798976
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/navBar-separator.png
+xresource/ProgressBar/navBar-separator.png
+lSLF07#2@46"Copy resource/ProgressBar/navBar-separator.png367640514#367640514#0(0"0(0#0#79"/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator.png31525631190827052#362"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/navBar-separator.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/tinyArrow-inactive.png resource/ProgressBar/tinyArrow-inactive.png
+s369047527.889948
+e369047527.916921
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/tinyArrow-inactive.png
+xresource/ProgressBar/tinyArrow-inactive.png
+lSLF07#2@48"Copy resource/ProgressBar/tinyArrow-inactive.png369047527#369047527#0(0"0(0#0#81"/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/tinyArrow-inactive.png8645474080#364"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/tinyArrow-inactive.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/tinyArrow-pushed.png resource/ProgressBar/tinyArrow-pushed.png
+s369047527.888097
+e369047527.916723
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/tinyArrow-pushed.png
+xresource/ProgressBar/tinyArrow-pushed.png
+lSLF07#2@46"Copy resource/ProgressBar/tinyArrow-pushed.png369047527#369047527#0(0"0(0#0#79"/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/tinyArrow-pushed.png8645925344#362"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/tinyArrow-pushed.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CCpResource build/Debug/MiniPlayer.app/Contents/Resources/tinyArrow.png resource/ProgressBar/tinyArrow.png
+s369047527.864961
+e369047527.916424
+r1
+xCpResource
+xbuild/Debug/MiniPlayer.app/Contents/Resources/tinyArrow.png
+xresource/ProgressBar/tinyArrow.png
+lSLF07#2@39"Copy resource/ProgressBar/tinyArrow.png369047527#369047527#0(0"0(0#0#72"/Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/tinyArrow.png8652929536#355"    cd /Users/Arthur/CocoaProject/MiniPlayer    /Developer3.2.3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Arthur/CocoaProject/MiniPlayer/resource/ProgressBar/tinyArrow.png /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Resources0#
+
+CLd /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/MacOS/MiniPlayer normal x86_64
+s369222012.756493
+e369222012.814517
+r1
+xLd
+x/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/MacOS/MiniPlayer
+xnormal
+xx86_64
+lSLF07#2@95"Link /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/MacOS/MiniPlayer369222012#369222012#0(0"0(0#0#0"8659419808#584"    cd /Users/Arthur/CocoaProject/MiniPlayer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer3.2.3/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer3.2.3/SDKs/MacOSX10.6.sdk -L/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -F/Users/Arthur/CocoaProject/MiniPlayer/build/Debug -filelist /Users/Arthur/CocoaProject/MiniPlayer/build/MiniPlayer.build/Debug/MiniPlayer.build/Objects-normal/x86_64/MiniPlayer.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework QuartzCore -o /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/MacOS/MiniPlayer0#
+
+CProcessInfoPlistFile /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Info.plist MiniPlayer-Info.plist
+s367590166.703512
+e367590166.742336
+r1
+xProcessInfoPlistFile
+x/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Info.plist
+xMiniPlayer-Info.plist
+lSLF07#2@29"Process MiniPlayer-Info.plist367590166#367590166#0(0"0(0#0#59"/Users/Arthur/CocoaProject/MiniPlayer/MiniPlayer-Info.plist22518449115627624#316"    cd /Users/Arthur/CocoaProject/MiniPlayer    builtin-infoPlistUtility MiniPlayer-Info.plist -genpkginfo /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/ms/msc-0JEtGqKgmhEVP2XAhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MiniPlayer_Prefix-durtruoiaskevkfwnowkzrjrrnnw/MiniPlayer_Prefix.pch.gch MiniPlayer_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app
+s369222012.814609
+e369222012.819133
+r1
+xTouch
+x/Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app
+lSLF07#2@70"Touch /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app369222012#369222012#0(0"0(0#0#0"8658945024#132"    cd /Users/Arthur/CocoaProject/MiniPlayer    /usr/bin/touch -c /Users/Arthur/CocoaProject/MiniPlayer/build/Debug/MiniPlayer.app0#
+
